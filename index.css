@@ -1,0 +1,107 @@
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;;
+}
+section{
+    display: flex;
+    padding: 20px 40px;
+}
+.half{
+    width: 50%;
+}
+.half img{
+    width: 80%;
+    padding-left: 40px;
+}
+h1{
+    font-size: 50px;
+    padding-left: 15px;;
+}
+.color{
+    color: rgb(109, 186, 221);
+}
+.border{
+    font-family: serif;
+    border-left: 5px solid;
+    border-color: rgb(59, 176, 211);
+}
+.button{
+    text-decoration: none;
+    width: 10px;
+    background-color: rgb(37, 104, 228);
+    color: white;
+    padding: 5px 40px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgb(110, 201, 231);
+    margin: 20px 0px;
+}
+.half2 img{
+    width: 150px;
+    padding: 10px;
+}
+.half2{
+    margin: 10px;
+    border-radius: 10px;
+    width: 100%;
+    padding: 20px;
+}
+.mission{
+    background-color: rgb(240, 221, 220);
+}
+.vission{
+    background-color: rgb(165, 245, 241);
+}
+.goals{
+    background-color: rgb(171, 243, 175);
+}
+h2{
+    text-align: center;
+    font-size: 50px;
+}
+.half3{
+    
+    width: 90%;
+    background-image: url(shape-1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: top;
+    justify-content: space-between;
+
+}
+.half3 img{
+    width: 60%;
+}
+h3{
+    font-size: 40px;
+    margin: 5px;
+    font-weight: bold;
+}
+.half4{
+    width: 50%;
+    justify-content: space-between;
+}
+.half4 img{
+    width: 50%;
+    position: relative;
+    left: 40%;
+}
+.contact{
+    text-align: center;
+}
+.contact input{
+    padding: 15px;
+    margin: 8px;
+    width: 300px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 10px black;
+}
+footer h4{
+    font-family: 'Moon Dance', cursive;
+    font-size: 20px;
+}
+footer{
+    text-align: center;
+    background-color: rgb(30, 23, 68);
+    color: white;
+}
