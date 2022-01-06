@@ -1,13 +1,19 @@
 body{
-    margin: 0;
-    font-family: 'Poppins', sans-serif;;
+    margin:0px;
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(0, 0, 0);
+    color: white;
 }
 section{
     display: flex;
     padding: 20px 40px;
+    margin: 30px 10px;
 }
 .half{
     width: 50%;
+}
+.half p{
+    margin: 40px 0px;
 }
 .half img{
     width: 80%;
@@ -15,24 +21,27 @@ section{
 }
 h1{
     font-size: 50px;
-    padding-left: 15px;;
+    padding: 0px 20px;
+    margin-bottom: -5px;
+
 }
 .color{
-    color: rgb(109, 186, 221);
+    color: rgb(238, 31, 31);
 }
 .border{
     font-family: serif;
-    border-left: 5px solid;
-    border-color: rgb(59, 176, 211);
+    border-left: 5px solid rgb(255, 77, 77);
+    border-radius: 5px;
+    
 }
 .button{
     text-decoration: none;
     width: 10px;
-    background-color: rgb(37, 104, 228);
+    background-color: rgb(238, 31, 31);
     color: white;
     padding: 5px 40px;
     border-radius: 5px;
-    box-shadow: 0 0 10px rgb(110, 201, 231);
+    box-shadow: 0 0 10px grey;
     margin: 20px 0px;
 }
 .half2 img{
@@ -40,10 +49,14 @@ h1{
     padding: 10px;
 }
 .half2{
-    margin: 10px;
+    margin: 15px;
     border-radius: 10px;
     width: 100%;
-    padding: 20px;
+    padding: 30px;
+    color: black;
+    height: 400px;
+    font-size: 15px;
+    box-shadow: 0 0 20px white;
 }
 .mission{
     background-color: rgb(240, 221, 220);
@@ -59,31 +72,43 @@ h2{
     font-size: 50px;
 }
 .half3{
-    
-    width: 90%;
+    width: 80%;
+}
+.background{
     background-image: url(shape-1.png);
-    background-size: contain;
+    background-size: 200px;
     background-repeat: no-repeat;
-    background-position-y: top;
-    justify-content: space-between;
+    background-position: left;
 
 }
 .half3 img{
     width: 60%;
+    padding-left: 60px;
 }
 h3{
     font-size: 40px;
     margin: 5px;
     font-weight: bold;
 }
+.background4{
+    background-image: url(shape-1.png);
+    background-size: 130px;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    padding-top: 50px;
+
+}
 .half4{
     width: 50%;
     justify-content: space-between;
 }
+.half4 p{
+    padding: 10px 0px;
+}
 .half4 img{
     width: 50%;
-    position: relative;
-    left: 40%;
+    padding-left: 280px;
+    padding-bottom: 20px;
 }
 .contact{
     text-align: center;
@@ -93,8 +118,10 @@ h3{
     margin: 8px;
     width: 300px;
     border: none;
-    border-radius: 5px;
-    box-shadow: 0 0 10px black;
+    border-radius: 15px;
+    box-shadow: 0 0 20px #fff9f9;
+    background-color: black;
+    color: white;
 }
 footer h4{
     font-family: 'Moon Dance', cursive;
@@ -102,6 +129,7 @@ footer h4{
 }
 footer{
     text-align: center;
-    background-color: rgb(30, 23, 68);
+    background-color:rgb(71, 68, 68);
     color: white;
+    margin-bottom: 0px;
 }
